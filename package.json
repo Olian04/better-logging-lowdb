@@ -1,0 +1,26 @@
+{
+  "name": "better-logging-lowdb",
+  "version": "1.0.0",
+  "description": "A better-logging middleware for storing logs in a lowdb",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olian04/better-logging-lowdb.git"
+  },
+  "keywords": [
+    "better-logging",
+    "lowdb",
+    "middleware"
+  ],
+  "author": "Olian04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Olian04/better-logging-lowdb/issues"
+  },
+  "homepage": "https://github.com/Olian04/better-logging-lowdb#readme",
+  "dependencies": {
+    "lowdb": "^1.0.0"
+  }
+}
