@@ -8,7 +8,7 @@ const init = (dbPath) => {
     
     return ({
         db,
-        middleware = ({
+        middleware: {
             onLogEmitted: log => {
                 if (db) {
                     db.get('logs')
@@ -16,7 +16,7 @@ const init = (dbPath) => {
                         .write();
                 }
             }
-        })        
+        }
     });
 }
 module.exports = init;
